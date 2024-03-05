@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HangfireExample.Infrastructure.CrossCutting.IoC.DI\HangfireExample.Infrastructure.CrossCutting.IoC.DI.csproj" />
+    <ProjectReference Include="..\HangfireExample.Infrastructure.Data.SqlServer\HangfireExample.Infrastructure.Data.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>
