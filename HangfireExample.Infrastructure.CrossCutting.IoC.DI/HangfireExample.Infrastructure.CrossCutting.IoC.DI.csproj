@@ -8,11 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HangfireExample.Application\HangfireExample.Application.csproj" />
+    <ProjectReference Include="..\HangfireExample.Infrastructure.Data.SqlServer\HangfireExample.Infrastructure.Data.SqlServer.csproj" />
     <ProjectReference Include="..\HangfireExample.Infrastructure.Hangfire\HangfireExample.Infrastructure.Hangfire.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DI\" />
   </ItemGroup>
 
 </Project>

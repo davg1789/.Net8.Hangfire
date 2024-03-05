@@ -14,7 +14,7 @@ namespace HangfireExample.Infrastructure.Data.SqlServer.Repository
         {
             this.settings = settings;
         }
-        public async Task<bool> AddAsync(List<Location> locations, ILogger logger)
+        public async Task<bool> AddAsync(IList<Location> locations, ILogger logger)
         {
             try
             {
